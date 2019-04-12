@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvDescription"
+        style="@style/TitleName"
+        android:text="Title"/>
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        style="@style/icon"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/labelName"
+        android:layout_toRightOf="@id/imageIcon"
+        android:text="tvName" />
+
+    <TextView
+        android:id="@+id/tvBedrooms"
+        style="@style/label"
+        android:layout_below="@id/tvName"
+        android:layout_toRightOf="@id/imageIcon"
+        android:text="tvBedrooms" />
+
+    <TextView
+        android:id="@+id/tvBathrooms"
+        style="@style/label"
+        android:layout_below="@id/tvBedrooms"
+        android:layout_toRightOf="@id/imageIcon"
+        android:text="tvBathrooms" />
+
+    <TextView
+        android:id="@+id/tvConstruction"
+        style="@style/label"
+        android:layout_below="@id/tvName"
+        android:layout_toRightOf="@id/tvBedrooms"
+        android:text="tvConstruction" />
+
+    <TextView
+        android:id="@+id/tvLotSize"
+        style="@style/label"
+        android:layout_below="@id/tvBedrooms"
+        android:layout_toRightOf="@id/tvBathrooms"
+        android:text="tvLotSize" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        style="@style/price"
+        android:layout_below="@id/tvLotSize"
+        android:text="tvPrice" />
+
+
+</RelativeLayout>
